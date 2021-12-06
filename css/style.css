@@ -10,14 +10,14 @@ body {
     background-color: #00839B;
 }
 
-main {
+.container {
     display: inline-block;
     width: 800px;
     margin-top: 100px;
     margin-left: calc(50% - 400px);
 }
 
-main > div:first-child {
+.left-column {
     float: left;
     width: 40%;
     padding: 40px;
@@ -25,7 +25,7 @@ main > div:first-child {
     background-color: #2E62B7;
 }
 
-main > div:last-child {
+.right-column {
     float: left;
     width: 60%;
     padding: 60px;
