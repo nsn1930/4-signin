@@ -4,7 +4,8 @@
     padding: 15px;
     padding-left: 50px;
     padding-right: 50px;
-    background-color: #015ad9;
+    background: rgb(35,74,213);
+    background: linear-gradient(90deg, rgba(35,74,213,1) 0%, rgba(1,94,218,1) 100%);
     color: #fff;
     font-size: 20px;
     line-height: 20px;
@@ -14,5 +15,6 @@
 }
 
 .btn:hover {
-    background-color: #4a84d4;
+    background: rgb(213, 35, 35);
+    background: linear-gradient(90deg, rgb(161, 31, 31) 0%, rgb(240, 55, 55) 100%);
 }
